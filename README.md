@@ -155,5 +155,12 @@ This endpoint deletes the template with the given id
         "success": True, 
         "message": "successfully deleted template"
     }
+<br><br>
+
+
+### Testing
+Python was used to build integration tests for this project, to run all tests enter the command below:
+#
+    python -m pytest
     
 
