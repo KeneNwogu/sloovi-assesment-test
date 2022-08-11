@@ -70,6 +70,6 @@ def delete_template(user, template_id):
         if template.get('user_id') != user.get('_id'):
             return unauthorised("Template you are trying to delete does not belong to logged in user")
         mongo.db.templates.delete_one({"_id": ObjectId(template_id)})
-        return {"success": True, "message": "successfully updated template"}
+        return {"success": True, "message": "successfully deleted template"}
     else:
         return resource_not_found("Template you are trying to delete does not exist")
