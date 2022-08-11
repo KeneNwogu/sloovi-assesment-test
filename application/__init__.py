@@ -16,6 +16,12 @@ CORS(app)
 
 mongo.init_app(app)
 
+
+@app.errorhandler(404)
+def invalid_url(e):
+    return {"success": False, "status": 404}, 404
+
+
 from application.users.routes import users
 from application.templates.routes import templates
 

@@ -1,6 +1,7 @@
 ## Introduction
 
-Sloovi assesment test. Performs basic CRUD and uses JWT for authentication.
+Sloovi assesment test. Performs basic CRUD and uses JWT for authentication. <br>
+Live link: https://sloovi-assessment.herokuapp.com/
 
 ### Getting started
 You can create a fork or clone this repo directly to download the code to your local repository
